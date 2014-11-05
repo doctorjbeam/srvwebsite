@@ -1,2 +1,7 @@
+*.db
+*.pdf
 *.zip
-_vti_*
+*_vti_*
+public_html/dev.steamrail.com.au/
+public_html/images/
+public_html/_private/
