@@ -1,3 +1,256 @@
+/**
+ * Steamrail stylesheet
+ * @since Version 1.0
+ * @author Steamrail, Michael Greenhill
+ */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**
+ * BEGIN custom CSS
+ */
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h1, h2, h3, h4 {
+	font-weight: bold;
+	color: #111;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 20pt;
+}
+
+h2 {
+	font-size: 18pt;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	line-height: 1.4;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.divider {
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 15px;
+	width: 100%;
+	position: relative;
+	margin-top: 15px;
+}
+
+.divider::before {
+	content: '';
+	display: block;
+	width: 30%;
+	height: 1px;
+	background: #04080e;
+	border-bottom: 1px solid #666;
+	position: absolute;
+	left: 0;
+	top: 49%;
+}
+
+.divider::after {
+	content: '';
+	display: block;
+	width: 30%;
+	height: 1px;
+	background: #04080e;
+	border-bottom: 1px solid #666;
+	position: absolute;
+	right: 0;
+	top: 49%;
+}
+
+.wrapper {
+	max-width: 900px;
+	min-width: 600px;
+	margin: auto;
+}
+
+@media all and (min-width: 601px) {
+	.wrapper {
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		border-color: rgba(255,255,255,.6);
+	}
+}
+	
+.font-impact {
+	font-family: Impact, Arial, Helvetica, sans-serif
+}
+
+.font-antiqua {
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif
+}
+
+header {
+	background-image: url(images/Banner_SR_Home_Mstr.jpg);
+	height:200px;
+}
+
+nav {
+	height: auto;
+	background-color: #333;
+	font-size: 0;
+}
+
+	nav ul {
+		
+	}
+	
+	nav li {
+		display: inline-block;
+	}
+	
+	nav a {
+		display: block;
+		color: whitesmoke;
+		border-right: 1px solid #ccc;
+		border-color: rgba(255,255,255,.5);
+		text-decoration: none;
+		font-size: 10pt;
+		line-height: 30px;
+		padding: 0px 10px;
+		font-weight: bold;
+	}
+	
+	nav a:hover {
+		background-color: #111;
+		color: yellow;
+	}
+
+.wrapper {
+	background: #FFFFCC;
+}
+
+.content {
+	padding: 20px;
+}
+
+.well {
+	width: 300px;
+	padding: 20px;
+	background: #FFCC66;
+}
+
+	.well-right {
+		float: right;
+	}
+	
+	.well-right .maxwidth {
+		width: 100%;
+		height: auto;
+	}
+	
+	.well h2 {
+		color: #b30303;
+		margin-top:0;
+		padding:0;
+		line-height:1;
+	}
+	
+	.well h2 .font-impact {
+		font-size: 46pt;
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+	
+	.well h2 .font-antiqua {
+		font-size: 30pt;
+	}
+	
+	.well h2 .divider::before, 
+	.well h2 .divider::after {
+		width: 60px;
+		border-color: #b30303;
+		border-width: 2px;
+	}
+
+.main {
+	width: calc(100% - 320px);
+}
+
+.inset {
+	padding: 20px;
+	background: #FFCC66;
+}
+
+#carousel {
+	background: #333;
+	height: 300px;
+	margin-bottom: 20px;
+	background-size: cover;
+	background-position: center;
+}
+
+
 #dolphincontainer{position:relative;border-bottom: 2px solid red; color:#f7ec3b;background:#343434;
 width:100%;font-family:Helvetica,Arial,Verdana,sans-serif;}
 #dolphinnav{position:relative;height:33px;font-size:12px;text-transform:uppercase;font-weight:bold;background:#343434 url(/images/dolphin_bg.gif) repeat-x bottom left;padding:0 0 0 0px;}
