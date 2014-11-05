@@ -9,41 +9,67 @@
 		// No title has been set yet - we'd better put a default one in..
 		$pagetitle = "Steamrail Victoria"; 
 	}
+	
+	/**
+	 * Menu items
+	 */
+	
+	$menu = array(
+		"home" => array(
+			"title" => "Home",
+		),
+		"about" => array(
+			"title" => "About Us", 
+		),
+		"tours" => array(
+			"title" => "Tours",
+		),
+		"charters" => array(
+			"title" => "Charters",
+		),
+		"membership" => array(
+			"title" => "Membership",
+		),
+		"volunteer" => array(
+			"title" => "Volunteer",
+		),
+		"contact" => array(
+			"title" => "Contact Us",
+		),
+		"souvenirs", array(
+			"title" => "Souvenirs",
+		),
+		"links" => array(
+			"title" => "Links"
+		),
+	);
 ?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" >
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<meta name="google-site-verification" content="yFTVT8T5a5mL26Wm0r42yqzxWrSGVGAVgN2qhOwqsFQ" />
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<meta name="google-site-verification" content="yFTVT8T5a5mL26Wm0r42yqzxWrSGVGAVgN2qhOwqsFQ">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
 	
-	<script type="text/javascript" src="dolphin.js">
-	
-	/***********************************************
-	* Dolphin Tabs Menu- by JavaScript Kit (www.javascriptkit.com)
-	* Menu interface by: http://www.13styles.com/css-menus/dolphin/
-	* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and 100s more
-	***********************************************/
-	
-	</script>
-	
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title><?php echo $pagetitle; ?></title>
-	<script src="/js/AC_RunActiveContent.js" type="text/javascript"></script>
-    <script language="javascript" src="/js/email.js"></script>
-	<script src="../../Scripts/swfobject_modified.js" type="text/javascript"></script>
+	<script src="/js/AC_RunActiveContent.js"></script>
+    <script src="/js/email.js"></script>
+	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
 
 <body>
-	<div align="center">
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=523426197678792";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="wrapper">
+		<header>
+		
+		</header>
+		
+		<nav>
+			<ul>
+				<?php foreach ($menu as $page => $row) : ?>
+				<?php if ($row['title'] != "s") : ?>
+				<li><a href="index.php?page=<?php echo $page;?>"><?php echo $row['title'];?></a></li>
+				<?php endif; ?>
+				<?php endforeach; ?>
+			</ul>
+		</nav>
