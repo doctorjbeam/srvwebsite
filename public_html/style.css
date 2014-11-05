@@ -1,0 +1,279 @@
+#dolphincontainer{position:relative;border-bottom: 2px solid red; color:#f7ec3b;background:#343434;
+width:100%;font-family:Helvetica,Arial,Verdana,sans-serif;}
+#dolphinnav{position:relative;height:33px;font-size:12px;text-transform:uppercase;font-weight:bold;background:#343434 url(/images/dolphin_bg.gif) repeat-x bottom left;padding:0 0 0 0px;}
+#dolphinnav ul{margin:0;padding:0;list-style-type:none;width:auto;float:left;}
+#dolphinnav ul li{display:block;float:left;margin:0 1px;}
+#dolphinnav ul li a{display:block;float:left;color:#ffffff;text-decoration:none;padding:0 0 0 20px;height:33px;}
+#dolphinnav ul li a span{padding:12px 20px 0 0;height:21px;float:left;}
+#dolphinnav ul li a:hover{color:#f7ec3b;background:transparent url(images/dolphin_bg-OVER.gif) repeat-x bottom left;}
+#dolphinnav ul li a:hover span{
+	display:block;
+	width:auto;
+	cursor:pointer;
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: normal;
+}
+#dolphinnav ul li a.current,#dolphinnav ul li a.current:hover{color:#f7ec3b;background:#343434 url(images/dolphin_left-ON.gif) no-repeat top left;line-height:275%;}
+#dolphinnav ul li a.current span{display:block;padding:0 20px 0 0;width:auto;background:#343434 url(images/dolphin_right-ON.gif) no-repeat top right;height:33px;}
+
+#dolphin_inner{color: #f7ec3b; padding: 10px; font-size: 80%; height: 1em}
+
+#dolphin_inner a:link, #dolphin_inner a:visited, #dolphin_inner a:active{color: #343434}
+#dolphin_inner a:hover{color: #aca205}
+
+.innercontent{display: none;}
+body p {
+	text-align: left;
+	font-family: Arial;
+	color: #000;
+	font-size: 16px;
+}
+.Arial {
+	font-size: 14px;
+}
+.Arial .Arial {
+	font-family: Arial;
+	color: #000;
+	text-align: left;
+}
+.Arial {
+	font-size: 14px;
+}
+.Arial {
+	font-size: 18px;
+}
+.Arial {
+	font-weight: bold;
+}
+.left {
+	text-align: left;
+	color: #FC6;
+}
+body div table tr td div table {
+	font-size: 14px;
+	font-family: Arial;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000;
+	text-align: left;
+}
+.style32 .Arial strong {
+	font-family: "Gill Sans MT Ext Condensed Bold";
+}
+.style321 .Arial strong {
+	font-size: 16px;
+}
+.Arial {
+	font-family: Arial;
+}
+.Arial strong {
+	font-size: 16px;
+}
+.style31 strong {
+	font-size: 16px;
+}
+.Arial table tr td {
+	font-size: 16px;
+	color: #000;
+	font-family: Arial;
+}
+.Arial table {
+	font-size: 16px;
+}
+.Arial blockquote {
+	font-family: Arial;
+	font-size: 14px;
+	color: #000;
+	text-align: left;
+}
+.Arial table tr td p {
+	color: #000;
+	font-family: "Gill Sans MT Ext Condensed Bold", Arial;
+	font-size: 16px;
+	text-align: left;
+}
+#Gill50Red {
+	font-family: "Gill Sans MT Ext Condensed Bold";
+	font-size: 50px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #F00;
+}
+#Gill50red {
+	font-family: "Gill Sans MT Ext Condensed Bold";
+	font-size: 50px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #F00;
+}
+.gill50red {
+	font-family: Impact;
+	font-size: 18px;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #b30303;
+	text-align: left;
+}
+.arial16noboldwhite {
+	font-family: Arial;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFF;
+	text-align: left;
+}
+.arial16noboldwhiteCTR {
+	font-family: Arial;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFF;
+	text-align: center;
+}
+.arial table tr td p {
+	font-family: Arial;
+}
+.arial table tr td p {
+	color: #FFF;
+}
+.arial table tr td p {
+	text-align: left;
+	color: #000;
+	font-family: Arial;
+}
+.arial table tr td .arial16nobold {
+	color: #000;
+	font-family: Arial;
+}
+.arial table tr td .arial16noboldwhite {
+	color: #FFF;
+}
+.Arial blockquote .arial16nobold {
+	font-family: Arial;
+}
+.Arial blockquote .arial16nobold {
+	font-size: 16px;
+}
+.arial table tr td .arial16nobold {
+	color: #000;
+}
+.Arial table tr .Arial .arial16nobold {
+	font-family: Arial;
+}
+.Arial table tr .Arial .arial16nobold {
+	font-size: 16px;
+}
+.Arial table tr .Arial .arial16nobold strong {
+	color: #000;
+}
+.Arial table tr .Arial .arial16nobold {
+	color: #000;
+}
+.gill50white {
+	font-family: Impact;
+	font-size: 40px;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFF;
+	text-align: left;
+}
+.Gill50back {
+	font-family: Impact;
+	font-size: 40px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #B30303;
+}
+.Gill50backCTR {
+	font-family: Impact;
+	font-size: 40px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #B30303;
+	text-align: center;
+}
+.vivaldi50white {
+	font-family: "Book Antiqua";
+	font-size: 40px;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFF;
+	text-align: right;
+}
+.vivaldi50red {
+	font-family: "Book Antiqua";
+	font-size: 50px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #B30303;
+	text-align: center;
+}
+.gill85red {
+	font-family: Impact;
+	font-size: 65px;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #b30303;
+	font-weight: normal;
+}
+.arial14nobold {
+	font-family: Arial;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000;
+}
+.gill50white table tr .gill50white {
+	font-family: Impact;
+	font-size: 50px;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFF;
+	font-weight: normal;
+}
+.Arial blockquote .arial16nobold {
+	text-align: left;
+}
+.style24 {
+	color: #FFF;
+}
+.style5 {
+	color: #FFFFFF;
+	font-family: Arial;
+}
