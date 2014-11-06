@@ -36,7 +36,7 @@
 		"contact" => array(
 			"title" => "Contact Us",
 		),
-		"souvenirs", array(
+		"souvenirs" => array(
 			"title" => "Souvenirs",
 		),
 		"links" => array(
