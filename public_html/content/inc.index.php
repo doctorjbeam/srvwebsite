@@ -4,12 +4,13 @@
 	 */
 	
 ?>
-<div class="well well-right">
-	<h2 style="text-align: center;"><span class="font-impact">Upcoming</span> <span class="font-antiqua divider">Tours</span></h2>
-	<a href="?page=tours"><img class="maxwidth" src="images/upcomingtours/rotate.php" alt="Click here to visit our tours page! Download brochures, view our upcoming tours and even book online!" width="250" height="500" border="0"></a>
-</div>
+<link href="social-feed/css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+<script src="js/dot/doT.min.js"></script>
+<script src="js/moment-with-locales.min.js"></script>
+<script src="social-feed/js/jquery.socialfeed.js"></script>
 
-<div class="main">
+
+<div class="main sidebar-right-margin">
 	<div id="carousel">
 	
 	</div>
@@ -22,6 +23,15 @@
 		<p>See the latest images of recent tours, as well as our locomotives and rollingstock.</p>
 		<p>We are currently using our "Flickr" group for images and plans are in place to link this back to our website. Our old "Gallery" software is currently offline so this means the About Us pages for our Steam, Electric, Diesel and Carriage pages do not contain photos at this point in time. We hope to have this rectified as soon as possible. Some latest photos have also been uploaded to our Facebook page in the interim.</p>
 	</div>
+	
+	<div class="social">
+		<h2>Social</h2>
+	</div>
+</div>
+
+<div class="well well-right">
+	<h2 style="text-align: center;"><span class="font-impact">Upcoming</span> <span class="font-antiqua divider">Tours</span></h2>
+	<a href="?page=tours"><img class="maxwidth" src="images/upcomingtours/rotate.php" alt="Click here to visit our tours page! Download brochures, view our upcoming tours and even book online!" width="250" height="500" border="0"></a>
 </div>
 
 <script>
@@ -53,5 +63,20 @@
 			
 			$target.css("opacity", 0).css("background-image", "url(" + $images[$k] + ")").animate({ opacity : 1 }, { duration : 400 });
 		}, 4000);
+		
+		/**
+		 * Social feed
+		 */
+		
+		$(".social").socialfeed({
+			facebook : {
+				accounts: [ "@steamrail", "#steamrail" ],
+				limit : 4,
+				access_token : "523426197678792|89a4e37ec71c900d92ebf64750f9f93e"
+			},
+			length : 400,
+			show_media : true,
+			
+		});
 	});
 </script>
