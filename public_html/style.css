@@ -81,6 +81,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11pt;
 	line-height: 1.4;
+	color: #111;
 }
 
 p {
@@ -130,7 +131,6 @@ p:last-child {
 
 .wrapper {
 	max-width: 900px;
-	min-width: 600px;
 	margin: auto;
 }
 
@@ -155,6 +155,26 @@ header {
 	height:200px;
 }
 
+footer {
+	background: #333;
+	color: whitesmoke;
+	padding: 20px;
+	font-size: 10pt;
+	text-align: center;
+}
+
+	footer p {
+		border-bottom: 1px solid #666;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	
+	footer p:last-child {
+		margin:0;
+		padding:0;
+		border: none;
+	}
+
 nav {
 	height: auto;
 	background-color: #333;
@@ -172,7 +192,8 @@ nav {
 	nav a {
 		display: block;
 		color: whitesmoke;
-		border-right: 1px solid #ccc;
+		border-right: 1px solid;
+		border-color: #ccc;
 		border-color: rgba(255,255,255,.5);
 		text-decoration: none;
 		font-size: 10pt;
@@ -233,10 +254,10 @@ nav {
 		border-width: 2px;
 	}
 
-.main {
+.main.sidebar-right-margin {
 	width: calc(100% - 320px);
+	float: left;
 }
-
 .inset {
 	padding: 20px;
 	background: #FFCC66;
@@ -249,6 +270,135 @@ nav {
 	background-size: cover;
 	background-position: center;
 }
+
+/**
+ * Social style overrides
+ */
+
+.social {
+	padding: 1px;
+	padding-top: 20px;
+}
+
+.main .social-feed-element {
+	background-color: #ffcc66;
+}
+
+.main .social-feed-element,
+.main .social-feed-element .author-title, 
+.main .social-feed-element .media-body div {
+	color: #111;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+
+.main .social-feed-element .muted {
+	color: rgba(0, 0, 0, .3);
+}
+
+.main .social-feed-element:hover {
+	box-shadow: none;
+}
+
+/**
+ * Flexbox
+ */
+
+.flexbox-container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -4px;
+}
+
+.flexbox {
+	display: inline-block;
+	margin: 0 4px 4px 0;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	width: 25%;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	border: 1px solid #ddd;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	min-height: 300px;
+	position:relative;
+	background-size: cover;
+	background-position: center;
+}
+
+.flexbox.thirds {
+	min-width: 300px;
+}
+
+.flexbox h3 {
+	position: absolute;
+	bottom:0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	background-color: rgba(0, 0, 0, .8);
+	margin: 0;
+	color: whitesmoke;
+	padding: 10px;
+}
+
+/**
+ * Styles optimised for handheld devices
+ */
+
+@media all and (max-width: 600px) {
+	nav a {
+		border-bottom: 1px solid;
+	}
+	
+	header {
+		height: 100px;
+		background-size: cover;
+	}
+	
+	footer {
+		font-size: 8pt;
+	}
+	
+	.main,
+	.main.sidebar-right-margin {
+		width: 100%;
+		float: none !important;
+		text-align: justify;
+	}
+	
+	.social {
+		width: 100%;
+	}
+	
+	.well {
+		width: 100%;
+		float: none;
+	}
+	
+	.well-right .maxwidth {
+		width: auto;
+		max-width: 100%;
+	}
+	
+	.well h2 .font-impact {
+		font-size: 30pt;
+	}
+	
+	.well h2 .font-antiqua {
+		font-size: 20pt;
+	}
+	
+	#carousel {
+		height: 200px;
+	}
+}
+
 
 
 #dolphincontainer{position:relative;border-bottom: 2px solid red; color:#f7ec3b;background:#343434;
@@ -276,12 +426,6 @@ width:100%;font-family:Helvetica,Arial,Verdana,sans-serif;}
 #dolphin_inner a:hover{color: #aca205}
 
 .innercontent{display: none;}
-body p {
-	text-align: left;
-	font-family: Arial;
-	color: #000;
-	font-size: 16px;
-}
 .Arial {
 	font-size: 14px;
 }
