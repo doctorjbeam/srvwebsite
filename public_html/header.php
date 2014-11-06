@@ -50,6 +50,12 @@
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<meta name="google-site-verification" content="yFTVT8T5a5mL26Wm0r42yqzxWrSGVGAVgN2qhOwqsFQ">
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+	<meta property="twitter:site" content="@SteamrailVic">
+	<meta property="twitter:domain" content="steamrail.com.au">
+	<meta property="og:site_name" content="Steamrail">
+	<meta property="og:title" content="<?php echo $pagetitle; ?>">
+	<meta property="og:locale" content="en_GB">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title><?php echo $pagetitle; ?></title>
