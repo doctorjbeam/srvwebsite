@@ -47,9 +47,8 @@
 <!DOCTYPE HTML>
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
-	<link rel="stylesheet" href="style.css" type="text/css">
 	<meta name="google-site-verification" content="yFTVT8T5a5mL26Wm0r42yqzxWrSGVGAVgN2qhOwqsFQ">
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="vendor/mrclay/minify/min/?f=style.css,css/style.css" rel="stylesheet" type="text/css" media="all">
 	<meta property="twitter:site" content="@SteamrailVic">
 	<meta property="twitter:domain" content="steamrail.com.au">
 	<meta property="og:site_name" content="Steamrail">
@@ -59,8 +58,6 @@
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title><?php echo $pagetitle; ?></title>
-	<script src="/js/AC_RunActiveContent.js"></script>
-    <script src="/js/email.js"></script>
 	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
 

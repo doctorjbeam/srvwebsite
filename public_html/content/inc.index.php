@@ -5,10 +5,7 @@
 	
 ?>
 <link href="social-feed/css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
-<script src="js/dot/doT.min.js"></script>
-<script src="js/moment-with-locales.min.js"></script>
-<script src="social-feed/js/jquery.socialfeed.js"></script>
-
+<script src="vendor/mrclay/minify/min/?f=js/dot/doT.min.js,js/moment-with-locales.min.js,social-feed/js/jquery.socialfeed.js"></script>
 
 <div class="main sidebar-right-margin">
 	<div id="carousel">

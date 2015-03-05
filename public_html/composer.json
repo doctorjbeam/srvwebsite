@@ -1,0 +1,15 @@
+{
+    "name": "steamrail/website",
+    "description": "Steamrail Victoria public website",
+    "authors": [
+        {
+            "name": "Michael Greenhill",
+            "email": "doctorjbeam@gmail.com"
+        }
+    ],
+	"license": "proprietary",
+    "minimum-stability": "stable",
+    "require": {
+		"mrclay/minify": "~2.2.0"
+	}
+}
