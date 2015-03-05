@@ -74,7 +74,7 @@
 			<ul>
 				<?php foreach ($menu as $page => $row) : ?>
 				<?php if ($row['title'] != "s") : ?>
-				<li><a href="index.php?page=<?php echo $page;?>"><?php echo $row['title'];?></a></li>
+				<li><a href="?page=<?php echo $page;?>"><?php echo $row['title'];?></a></li>
 				<?php endif; ?>
 				<?php endforeach; ?>
 			</ul>

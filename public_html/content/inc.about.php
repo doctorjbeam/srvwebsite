@@ -18,18 +18,18 @@
 	
 	<h2>Our fleet</h2>
 	
-	<div class="flexbox-container">
+	<div class="flexbox-container noborder">
 		<a class="flexbox thirds" style="background-image: url(https://farm4.staticflickr.com/3949/15628027291_5a867c58ce.jpg);" href="?page=about.fleet.steam">
-			<h3>Steam</h3>
+			<h3 class="picture">Steam</h3>
 		</a>
 		<a class="flexbox thirds" style="background-image: url(https://farm4.staticflickr.com/3901/14571172590_79d6d6748c.jpg);" href="?page=about.fleet.diesel">
-			<h3>Diesel</h3>
+			<h3 class="picture">Diesel</h3>
 		</a>
 		<a class="flexbox thirds" style="background-image: url(https://farm9.staticflickr.com/8387/8643847593_eb1e3e5046.jpg);" href="?page=about.fleet.leccy">
-			<h3>Electric</h3>
+			<h3 class="picture">Electric</h3>
 		</a>
 		<a class="flexbox thirds" style="background-image: url(https://farm4.staticflickr.com/3882/14968260502_aeed8e76a0.jpg);" href="?page=about.fleet.carriages">
-			<h3>Carriages</h3>
+			<h3 class="picture">Carriages</h3>
 		</a>
 	</div>
 </div>

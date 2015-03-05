@@ -53,6 +53,28 @@ table {
 	border-spacing: 0;
 }
 
+strong {
+	font-weight: bold;
+}
+
+ul, ol {
+	list-style: outside;
+	margin-bottom: 20px;
+}
+
+li {
+	margin-left: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+nav li {
+	margin: 0;
+}
+
 /**
  * BEGIN custom CSS
  */
@@ -84,6 +106,10 @@ body {
 	color: #111;
 }
 
+em {
+	font-style: italic;
+}
+
 p {
 	margin-bottom: 20px;
 }
@@ -94,6 +120,19 @@ p:last-child {
 
 *, *:before, *:after {
 	box-sizing: border-box;
+}
+
+a {
+	color: #111;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
 }
 
 .divider {
@@ -174,6 +213,10 @@ footer {
 		padding:0;
 		border: none;
 	}
+	
+	footer a {
+		color: whitesmoke;
+	}
 
 nav {
 	height: auto;
@@ -253,6 +296,10 @@ nav {
 		border-color: #b30303;
 		border-width: 2px;
 	}
+	
+	.well *:last-child {
+		margin-bottom: 0;
+	}
 
 .main.sidebar-right-margin {
 	width: calc(100% - 320px);
@@ -331,11 +378,33 @@ nav {
 	background-position: center;
 }
 
+.flexbox img {
+	max-width: 100%;
+}
+
 .flexbox.thirds {
 	min-width: 300px;
 }
 
-.flexbox h3 {
+.flexbox-halfs, .flexbox-half {
+	width: 50%;
+	min-width: 250px;
+}
+
+.flexbox-container.noborder {
+	margin-right: -20px;
+} 
+
+.flexbox-container.noborder .flexbox {
+	margin: 0 20px 20px 0;
+	border: none;
+}
+
+.flexbox-container.small .flexbox {
+	min-height: 100px;
+}
+
+.flexbox h3.picture {
 	position: absolute;
 	bottom:0;
 	left: 0;
@@ -346,6 +415,55 @@ nav {
 	color: whitesmoke;
 	padding: 10px;
 }
+
+/**
+ * Data grid
+ */
+
+.data-grid {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+	.data-grid th, td {
+		padding: 4px;
+		text-align: left;
+	}
+	
+	.data-grid th {
+		font-weight: bold;
+	}
+	
+	.data-grid tbody tr:nth-child(odd) td {
+		background-color: #FFE1A6;
+	}
+	
+	.data-grid tbody tr:nth-child(even) td,
+	.data-grid th {
+		background-color: #FFCC66;
+	}
+
+	.well-img {
+		display: block;
+		width: 100%;
+		height: 300px;
+		background-size: cover;
+		margin: 20px 0;
+	}
+	
+	.well-red {
+		background-color: #b30303;
+		color: white;
+	}
+	
+		.well-red h2 {
+			color: white;
+		}
+		
+		.well-red a {
+			color: white;
+		}
+
 
 /**
  * Styles optimised for handheld devices
@@ -372,6 +490,10 @@ nav {
 		text-align: justify;
 	}
 	
+		.main h2 {
+			text-align: left;
+		}
+	
 	.social {
 		width: 100%;
 	}
@@ -396,6 +518,10 @@ nav {
 	
 	#carousel {
 		height: 200px;
+	}
+	
+	.hh-hide {
+		display: none;
 	}
 }
 
