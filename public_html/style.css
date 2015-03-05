@@ -79,6 +79,29 @@ nav li {
  * BEGIN custom CSS
  */
 
+.feature-r761 {
+	background-image:url(/steamrail/images/r761back.jpg);
+	background-size: cover;
+	background-position: right;
+	min-height: 400px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+	
+	.feature-r761 span {
+		display: block;
+		background-color: rgb(255,204,102);
+		background-color: rgba(255,204,102, .8);
+		padding: 10px;
+		max-width: 50%;
+		min-width: 250px;
+		margin-bottom: 4px;
+	}
+	
+		.feature-r761 span:last-child {
+			margin-bottom: 0;
+		}
+
 .group:after {
 	content: "";
 	display: table;
@@ -104,6 +127,7 @@ body {
 	font-size: 11pt;
 	line-height: 1.4;
 	color: #111;
+	background-size:cover;
 }
 
 em {
@@ -169,7 +193,7 @@ a:hover {
 }
 
 .wrapper {
-	max-width: 900px;
+	max-width: 960px;
 	margin: auto;
 }
 
@@ -192,6 +216,8 @@ a:hover {
 header {
 	background-image: url(/steamrail/images/Banner_SR_Home_Mstr.jpg);
 	height:200px;
+	background-size:cover;
+	background-position:bottom;
 }
 
 footer {
@@ -403,6 +429,35 @@ nav {
 .flexbox-container.small .flexbox {
 	min-height: 100px;
 }
+
+.flexbox-container.nomaxheight .flexbox {
+	min-height: 10px;
+}
+
+.flexbox-container.tablerow {
+	margin-right: -2px;
+	font-size: 10pt;
+}
+
+.flexbox-container.tablerow:last-child {
+	margin-bottom: 20px;
+}
+
+.flexbox-container.tablerow .flexbox {
+	min-width: 100px;
+	background-color: rgb(255,204,102);
+	margin: 0 2px 2px 0;
+	padding: 4px;
+}
+
+	.flexbox-container.tablerow .flexbox:nth-child(odd) {
+		font-weight: bold;
+		min-width: 100px;
+	}
+	
+	.flexbox-container.tablerow .flexbox:nth-child(even) {
+		min-width: 140px;
+	}
 
 .flexbox h3.picture {
 	position: absolute;
