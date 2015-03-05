@@ -5,3 +5,5 @@
 public_html/dev.steamrail.com.au/
 public_html/images/
 public_html/_private/
+public_html/old/
+public_html/composer.lock
