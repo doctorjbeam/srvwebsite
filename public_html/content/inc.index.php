@@ -27,7 +27,7 @@
 	</div>
 </div>
 
-<div class="well well-right">
+<div class="well well-right background--orange">
 	<h2 style="text-align: center;"><span class="font-impact">Upcoming</span> <span class="font-antiqua divider">Tours</span></h2>
 	<a href="?page=tours"><img class="maxwidth" src="images/upcomingtours/rotate.php" alt="Click here to visit our tours page! Download brochures, view our upcoming tours and even book online!" width="250" height="500" border="0"></a>
 </div>

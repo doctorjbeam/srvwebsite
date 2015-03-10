@@ -40,7 +40,7 @@
 	<p>Click <a href="http://www.flickr.com/photos/steamrail/collections/72157639610722835/">here</a> to see electric.</p>
 </div>
 
-<div class="well well-right well-red">
+<div class="well well-right background--red">
 	<h2>Destinations</h2>
 	
 	<span class="well-img" style="background-image: url(http://www.steamrail.com.au/images/r761ballarattrailing.JPG);"></span>

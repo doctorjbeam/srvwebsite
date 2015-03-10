@@ -15,7 +15,7 @@
 		</span>
 		
 		<span>
-			<p><strong>Photo gallery submissions</strong><br><a href="mailto:steamrail@steamrail.com.au">steamrail@steamrail.com.au</a></p>
+			<p><strong>Photo gallery submissions</strong><br><a href="mailto:submissions@steamrail.com.au">submissions@steamrail.com.au</a></p>
 		</span>
 		
 		<span>
@@ -185,7 +185,7 @@
 	</div>
 </div>
 
-<div class="well well-right well-red">
+<div class="well well-right background--red">
 	<p>We welcome your enquiries, support and membership!</p>
 	<p>Please contact us by any of the methods below if you have a question / query / booking etc.</p>
 	<p><strong>Mailing address</strong><br>Steamrail Victoria Inc.<br>P.O. Box 125 Newport<br>Victoria 3015 Australia</p>

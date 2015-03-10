@@ -19,7 +19,7 @@
 	</div>
 </div>
 
-<div class="well well-right well-red">
+<div class="well well-right background--red">
 	<h2>Interested?</h2>
 	<p>If you are interested and think you might like to help with a specific project or the on-going operations, you may like to come down to the depot and inspect the current work in hand and talk to someone about what you can do.</p>
 	<p>Volunteers must be aged 15 or over, if under 15, we still welcome you but you will need to be accompanied by a parent or legal guardian while volunteering.</p>

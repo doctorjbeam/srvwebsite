@@ -18,7 +18,7 @@
 	Newport VIC 3015</p>
 </div>
 
-<div class="well well-right well-red">
+<div class="well well-right background--red">
 	<h2>Volunteers needed!</h2>
 	<span class="well-img" style="background-image: url(http://www.steamrail.com.au/images/jamesr761.jpg);"></span>
 	<p>Steamrail relies on a small core of highly dedicated specialist staff supported by a large team of volunteers. They all work to restore, maintain and operate the extensive fleet of locomotives and rolling stock as well as the associated depot and support facilities.</p>
