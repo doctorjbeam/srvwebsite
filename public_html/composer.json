@@ -1,11 +1,15 @@
 {
-    "name": "steamrail/website",
+    "name": "steamrail/srvwebsite",
     "description": "Steamrail Victoria public website",
     "authors": [
         {
             "name": "Michael Greenhill",
             "email": "doctorjbeam@gmail.com"
-        }
+        },
+		{
+			"name": "Lionel Camilleri",
+			"email": "secretary@steamrail.com.au"
+		}
     ],
 	"license": "proprietary",
     "minimum-stability": "stable",
