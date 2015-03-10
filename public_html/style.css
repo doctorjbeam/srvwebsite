@@ -1,924 +1,1847 @@
 /**
+
  * Steamrail stylesheet
+
  * @since Version 1.0
+
  * @author Steamrail, Michael Greenhill
+
  */
+
+
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
+
    v2.0 | 20110126
+
    License: none (public domain)
+
 */
 
+
+
 html, body, div, span, applet, object, iframe,
+
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
 a, abbr, acronym, address, big, cite, code,
+
 del, dfn, em, img, ins, kbd, q, s, samp,
+
 small, strike, strong, sub, sup, tt, var,
+
 b, u, i, center,
+
 dl, dt, dd, ol, ul, li,
+
 fieldset, form, label, legend,
+
 table, caption, tbody, tfoot, thead, tr, th, td,
+
 article, aside, canvas, details, embed, 
+
 figure, figcaption, footer, header, hgroup, 
+
 menu, nav, output, ruby, section, summary,
+
 time, mark, audio, video {
+
 	margin: 0;
+
 	padding: 0;
+
 	border: 0;
+
 	font-size: 100%;
+
 	font: inherit;
+
 	vertical-align: baseline;
+
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
+
 footer, header, hgroup, menu, nav, section {
+
 	display: block;
+
 }
+
 body {
+
 	line-height: 1;
+
 }
+
 ol, ul {
+
 	list-style: none;
+
 }
+
 blockquote, q {
+
 	quotes: none;
+
 }
+
 blockquote:before, blockquote:after,
+
 q:before, q:after {
+
 	content: '';
+
 	content: none;
+
 }
+
 table {
+
 	border-collapse: collapse;
+
 	border-spacing: 0;
+
 }
+
+
 
 strong {
+
 	font-weight: bold;
+
 }
+
+
 
 ul, ol {
+
 	list-style: outside;
+
 	margin-bottom: 20px;
+
 }
+
+
 
 li {
+
 	margin-left: 20px;
+
 }
+
+
 
 nav ul {
+
 	list-style: none;
+
 	margin: 0;
+
 }
+
+
 
 nav li {
+
 	margin: 0;
+
 }
 
+
+
 /**
+
  * BEGIN custom CSS
+
  */
+
+
 
 .feature-r761 {
-	background-image:url(/steamrail/images/r761back.jpg);
+
+	background-image:url(/images/r761back.jpg);
+
 	background-size: cover;
+
 	background-position: right;
+
 	min-height: 400px;
+
 	padding: 10px;
+
 	margin-bottom: 20px;
+
 }
+
 	
+
 	.feature-r761 span {
+
 		display: block;
+
 		background-color: rgb(255,204,102);
+
 		background-color: rgba(255,204,102, .8);
+
 		padding: 10px;
+
 		max-width: 50%;
+
 		min-width: 250px;
+
 		margin-bottom: 4px;
+
 	}
+
 	
+
 		.feature-r761 span:last-child {
+
 			margin-bottom: 0;
+
 		}
+
+
 
 .group:after {
+
 	content: "";
+
 	display: table;
+
 	clear: both;
+
 }
+
+
 
 h1, h2, h3, h4 {
+
 	font-weight: bold;
+
 	color: #111;
+
 	margin-bottom: 20px;
+
 }
+
+
 
 h1 {
+
 	font-size: 20pt;
+
 }
+
+
 
 h2 {
+
 	font-size: 18pt;
+
 }
+
+
 
 	h1 a, h2 a, h3 a {
+
 		text-decoration: none;
+
 		color: rgb(22, 51, 166);
+
 	}
+
 	
+
 		h1 a:hover, h2 a:hover, h3 a:hover {
+
 			text-decoration: underline;
+
 		}
+
+
 
 body {
+
 	font-family: Arial, Helvetica, sans-serif;
+
 	font-size: 11pt;
+
 	line-height: 1.4;
+
 	color: #111;
+
 }
+
+
 
 em {
+
 	font-style: italic;
+
 }
+
+
 
 p {
+
 	margin-bottom: 20px;
+
 }
+
+
 
 p:last-child {
+
 	margin-bottom: 0;
+
 }
+
+
 
 *, *:before, *:after {
+
 	box-sizing: border-box;
+
 }
+
+
 
 a {
+
 	color: #111;
+
 	text-decoration: underline;
+
 }
+
+
 
 a:hover {
+
 	text-decoration: none;
+
 }
+
+
 
 .margin-bottom {
+
 	margin-bottom: 20px;
+
 }
+
+
 
 .divider {
+
 	text-align: center;
+
 	display: inline-block;
+
 	margin-bottom: 15px;
+
 	width: 100%;
+
 	position: relative;
+
 	margin-top: 15px;
+
 }
+
+
 
 .divider::before {
+
 	content: '';
+
 	display: block;
+
 	width: 30%;
+
 	height: 1px;
+
 	background: #04080e;
+
 	border-bottom: 1px solid #666;
+
 	position: absolute;
+
 	left: 0;
+
 	top: 49%;
+
 }
+
+
 
 .divider::after {
+
 	content: '';
+
 	display: block;
+
 	width: 30%;
+
 	height: 1px;
+
 	background: #04080e;
+
 	border-bottom: 1px solid #666;
+
 	position: absolute;
+
 	right: 0;
+
 	top: 49%;
+
 }
 
+
+
 .wrapper {
+
 	max-width: 960px;
+
 	margin: auto;
+
 }
+
+
 
 @media all and (min-width: 601px) {
+
 	.wrapper {
+
 		border-left: 1px solid #ccc;
+
 		border-right: 1px solid #ccc;
+
 		border-color: rgba(255,255,255,.6);
+
 	}
+
 }
+
 	
+
 .font-impact {
+
 	font-family: Impact, Arial, Helvetica, sans-serif
+
 }
+
+
 
 .font-antiqua {
+
 	font-family: Book Antiqua, Arial, Helvetica, sans-serif
+
 }
+
+
 
 header {
-	background-image: url(/steamrail/images/Banner_SR_Home_Mstr.jpg);
+
+	background-image: url(/images/Banner_SR_Home_Mstr.jpg);
+
 	height:200px;
+
 	background-size:cover;
+
 	background-position:bottom;
+
 }
+
+
 
 footer {
+
 	background: #333;
+
 	color: whitesmoke;
+
 	padding: 20px;
+
 	font-size: 10pt;
+
 	text-align: center;
+
 }
+
+
 
 	footer p {
+
 		border-bottom: 1px solid #666;
+
 		margin-bottom: 10px;
+
 		padding-bottom: 10px;
+
 	}
+
 	
+
 	footer p:last-child {
+
 		margin:0;
+
 		padding:0;
+
 		border: none;
+
 	}
+
 	
+
 	footer a {
+
 		color: whitesmoke;
+
 	}
+
+
 
 nav {
+
 	height: auto;
+
 	background-color: #333;
+
 	font-size: 0;
+
 }
+
+
 
 	nav ul {
+
 		
+
 	}
+
 	
+
 	nav li {
+
 		display: inline-block;
+
 	}
+
 	
+
 	nav a {
+
 		display: block;
+
 		color: whitesmoke;
+
 		border-right: 1px solid;
+
 		border-color: #ccc;
+
 		border-color: rgba(255,255,255,.5);
+
 		text-decoration: none;
+
 		font-size: 10pt;
+
 		line-height: 30px;
+
 		padding: 0px 10px;
+
 		font-weight: bold;
+
 	}
+
 	
+
 	nav a:hover {
+
 		background-color: #111;
+
 		color: yellow;
+
 	}
+
+
 
 .wrapper {
+
 	background: #FFFFCC;
+
 }
+
+
 
 .content {
+
 	padding: 20px;
+
 }
+
+
 
 .well {
+
 	width: 300px;
+
 	padding: 20px;
+
 }
+
+
 
 	.well-right {
+
 		float: right;
+
 	}
+
 	
+
 	.well-right .maxwidth {
+
 		width: 100%;
+
 		height: auto;
+
 	}
+
 	
+
 	.well h2 {
+
 		color: #b30303;
+
 		margin-top:0;
+
 		padding:0;
+
 		line-height:1;
+
 	}
+
 	
+
 	.well h2 .font-impact {
+
 		font-size: 46pt;
+
 		font-weight: normal;
+
 		text-transform: uppercase;
+
 	}
+
 	
+
 	.well h2 .font-antiqua {
+
 		font-size: 30pt;
+
 	}
+
 	
+
 	.well h2 .divider::before, 
+
 	.well h2 .divider::after {
+
 		width: 60px;
+
 		border-color: #b30303;
+
 		border-width: 2px;
+
 	}
+
 	
+
 	.well *:last-child {
+
 		margin-bottom: 0;
+
 	}
+
+
 
 .main.sidebar-right-margin {
+
 	width: calc(100% - 320px);
+
 	float: left;
+
 }
+
 .inset {
+
 	padding: 20px;
+
 	background: #FFCC66;
+
 }
+
+
 
 #carousel {
+
 	background: #333;
+
 	height: 300px;
+
 	margin-bottom: 20px;
+
 	background-size: cover;
+
 	background-position: center;
+
 }
 
+
+
 /**
+
  * Social style overrides
+
  */
+
+
 
 .social {
+
 	padding: 1px;
+
 	padding-top: 20px;
+
 }
+
+
 
 .main .social .content {
+
 	text-align: left;
+
 }
+
+
 
 .main .social-feed-element {
+
 	background-color: #ffcc66;
+
 	text-align: center;
+
 }
+
+
 
 .main .social-feed-element,
+
 .main .social-feed-element .author-title, 
+
 .main .social-feed-element .media-body div {
+
 	color: #111;
+
 	font-family: Arial, Helvetica, sans-serif;
+
 	font-size: 11pt;
+
 }
+
+
 
 .main .social-feed-element .muted {
+
 	color: rgba(0, 0, 0, .3);
+
 }
+
+
 
 .main .social-feed-element:hover {
+
 	box-shadow: none;
+
 }
+
+
 
 .ui-block {
+
 	border-color: rgba(0, 0, 0, .8);
+
 	margin-bottom: 2px;
+
 }
+
+
 
 	.ui-block:last-child {
+
 		margin-bottom: none;
+
 	}
 
+
+
 /**
+
  * Flexbox
+
  */
+
+
 
 .flexbox-container {
+
 	display: -webkit-box;
+
 	display: -moz-box;
+
 	display: -ms-flexbox;
+
 	display: -webkit-flex;
+
 	display: flex;
+
 	flex-wrap: wrap;
+
 	margin-right: -4px;
+
 }
+
+
 
 .flexbox {
+
 	display: inline-block;
+
 	margin: 0 4px 4px 0;
+
 	-webkit-box-flex: 1;
+
 	-moz-box-flex: 1;
+
 	width: 25%;
+
 	-webkit-flex: 1;
+
 	-ms-flex: 1;
+
 	flex: 1;
+
 	border: 1px solid #ddd;
+
 	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+
 	min-height: 300px;
+
 	position:relative;
+
 	background-size: cover;
+
 	background-position: center;
+
 }
+
+
 
 .flexbox img {
+
 	max-width: 100%;
+
 }
+
+
 
 .flexbox.thirds {
+
 	min-width: 300px;
+
 }
+
+
 
 .flexbox-halfs, .flexbox-half {
+
 	width: 50%;
+
 	min-width: 250px;
+
 }
+
+
 
 .flexbox-thirds, .flexbox-third {
+
 	width: 33.3%;
+
 	min-width: 180px;
+
 }
+
+
 
 .flexbox-container.noborder {
+
 	margin-right: -20px;
+
 } 
 
+
+
 .flexbox-container.noborder .flexbox {
+
 	margin: 0 20px 20px 0;
+
 	border: none;
+
 }
+
+
 
 .flexbox-container.small .flexbox {
+
 	min-height: 100px;
+
 }
+
+
 
 .flexbox-container.nomaxheight .flexbox {
+
 	min-height: 10px;
+
 }
+
+
 
 .flexbox-container.tablerow {
+
 	margin-right: -2px;
+
 	font-size: 10pt;
+
 }
+
+
 
 .flexbox-container.tablerow:last-child {
+
 	margin-bottom: 20px;
+
 }
+
+
 
 .flexbox-container.tablerow .flexbox {
+
 	min-width: 100px;
+
 	background-color: rgb(255,204,102);
+
 	margin: 0 2px 2px 0;
+
 	padding: 4px;
+
 }
+
+
 
 	.flexbox-container.tablerow .flexbox:nth-child(odd) {
+
 		font-weight: bold;
+
 		min-width: 100px;
+
 	}
+
 	
+
 	.flexbox-container.tablerow .flexbox:nth-child(even) {
+
 		min-width: 140px;
+
 	}
+
+
 
 .flexbox h3.picture {
+
 	position: absolute;
+
 	bottom:0;
+
 	left: 0;
+
 	width: 100%;
+
 	background-color: #333;
+
 	background-color: rgba(0, 0, 0, .8);
+
 	margin: 0;
+
 	color: whitesmoke;
+
 	padding: 10px;
+
 }
 
+
+
 /**
+
  * Data grid
+
  */
+
+
 
 .data-grid {
+
 	width: 100%;
+
 	border-collapse: collapse;
+
 }
 
+
+
 	.data-grid th, td {
+
 		padding: 4px;
+
 		text-align: left;
-	}
-	
-	.data-grid th {
-		font-weight: bold;
-	}
-	
-	.data-grid tbody tr:nth-child(odd) td {
-		background-color: #FFE1A6;
-	}
-	
-	.data-grid tbody tr:nth-child(even) td,
-	.data-grid th {
-		background-color: #FFCC66;
+
 	}
 
-	.well-img {
-		display: block;
-		width: 100%;
-		height: 300px;
-		background-size: cover;
-		margin: 20px 0;
+	
+
+	.data-grid th {
+
+		font-weight: bold;
+
 	}
+
+	
+
+	.data-grid tbody tr:nth-child(odd) td {
+
+		background-color: #FFE1A6;
+
+	}
+
+	
+
+	.data-grid tbody tr:nth-child(even) td,
+
+	.data-grid th {
+
+		background-color: #FFCC66;
+
+	}
+
+
+
+	.well-img {
+
+		display: block;
+
+		width: 100%;
+
+		height: 300px;
+
+		background-size: cover;
+
+		margin: 20px 0;
+
+	}
+
+
+
 
 
 /**
+
  * Styles optimised for handheld devices
+
  */
 
+
+
 @media all and (max-width: 600px) {
+
 	nav a {
+
 		border-bottom: 1px solid;
+
 	}
+
 	
+
 	header {
+
 		height: 100px;
+
 		background-size: cover;
+
 	}
+
 	
+
 	footer {
+
 		font-size: 8pt;
+
 	}
+
 	
+
 	.main,
+
 	.main.sidebar-right-margin {
+
 		width: 100%;
+
 		float: none !important;
+
 		text-align: justify;
+
 	}
+
 	
+
 		.main h2 {
+
 			text-align: left;
+
 		}
+
 	
+
 	.social {
+
 		width: 100%;
+
 	}
+
 	
+
 	.well {
+
 		width: 100%;
+
 		float: none;
+
 	}
+
 	
+
 	.well-right .maxwidth {
+
 		width: auto;
+
 		max-width: 100%;
+
 	}
+
 	
+
 	.well h2 .font-impact {
+
 		font-size: 30pt;
+
 	}
+
 	
+
 	.well h2 .font-antiqua {
+
 		font-size: 20pt;
+
 	}
+
 	
+
 	#carousel {
+
 		height: 200px;
+
 	}
+
 	
+
 	.hh-hide {
+
 		display: none;
+
 	}
+
 }
+
+
+
+
 
 
 
 #dolphincontainer{position:relative;border-bottom: 2px solid red; color:#f7ec3b;background:#343434;
+
 width:100%;font-family:Helvetica,Arial,Verdana,sans-serif;}
+
 #dolphinnav{position:relative;height:33px;font-size:12px;text-transform:uppercase;font-weight:bold;background:#343434 url(/images/dolphin_bg.gif) repeat-x bottom left;padding:0 0 0 0px;}
+
 #dolphinnav ul{margin:0;padding:0;list-style-type:none;width:auto;float:left;}
+
 #dolphinnav ul li{display:block;float:left;margin:0 1px;}
+
 #dolphinnav ul li a{display:block;float:left;color:#ffffff;text-decoration:none;padding:0 0 0 20px;height:33px;}
+
 #dolphinnav ul li a span{padding:12px 20px 0 0;height:21px;float:left;}
+
 #dolphinnav ul li a:hover{color:#f7ec3b;background:transparent url(images/dolphin_bg-OVER.gif) repeat-x bottom left;}
+
 #dolphinnav ul li a:hover span{
+
 	display:block;
+
 	width:auto;
+
 	cursor:pointer;
+
 	font-size: 12px;
+
 	font-family: Arial;
+
 	font-weight: normal;
+
 }
+
 #dolphinnav ul li a.current,#dolphinnav ul li a.current:hover{color:#f7ec3b;background:#343434 url(images/dolphin_left-ON.gif) no-repeat top left;line-height:275%;}
+
 #dolphinnav ul li a.current span{display:block;padding:0 20px 0 0;width:auto;background:#343434 url(images/dolphin_right-ON.gif) no-repeat top right;height:33px;}
+
+
 
 #dolphin_inner{color: #f7ec3b; padding: 10px; font-size: 80%; height: 1em}
 
+
+
 #dolphin_inner a:link, #dolphin_inner a:visited, #dolphin_inner a:active{color: #343434}
+
 #dolphin_inner a:hover{color: #aca205}
 
+
+
 .innercontent{display: none;}
+
 .Arial {
+
 	font-size: 14px;
-}
-.Arial .Arial {
-	font-family: Arial;
-	color: #000;
-	text-align: left;
-}
-.Arial {
-	font-size: 14px;
-}
-.Arial {
-	font-size: 18px;
-}
-.Arial {
-	font-weight: bold;
-}
-.left {
-	text-align: left;
-	color: #FC6;
-}
-body div table tr td div table {
-	font-size: 14px;
-	font-family: Arial;
-	font-style: normal;
-	line-height: normal;
-	font-weight: normal;
-	font-variant: normal;
-	color: #000;
-	text-align: left;
-}
-.style32 .Arial strong {
-	font-family: "Gill Sans MT Ext Condensed Bold";
-}
-.style321 .Arial strong {
-	font-size: 16px;
-}
-.Arial {
-	font-family: Arial;
-}
-.Arial strong {
-	font-size: 16px;
-}
-.style31 strong {
-	font-size: 16px;
-}
-.Arial table tr td {
-	font-size: 16px;
-	color: #000;
-	font-family: Arial;
-}
-.Arial table {
-	font-size: 16px;
-}
-.Arial blockquote {
-	font-family: Arial;
-	font-size: 14px;
-	color: #000;
-	text-align: left;
-}
-.Arial table tr td p {
-	color: #000;
-	font-family: "Gill Sans MT Ext Condensed Bold", Arial;
-	font-size: 16px;
-	text-align: left;
-}
-#Gill50Red {
-	font-family: "Gill Sans MT Ext Condensed Bold";
-	font-size: 50px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: bold;
-	font-variant: normal;
-	text-transform: none;
-	color: #F00;
-}
-#Gill50red {
-	font-family: "Gill Sans MT Ext Condensed Bold";
-	font-size: 50px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: bold;
-	font-variant: normal;
-	text-transform: none;
-	color: #F00;
-}
-.gill50red {
-	font-family: Impact;
-	font-size: 18px;
-	line-height: normal;
-	font-variant: normal;
-	text-transform: none;
-	color: #b30303;
-	text-align: left;
-}
-.arial16noboldwhite {
-	font-family: Arial;
-	font-size: 16px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	color: #FFF;
-	text-align: left;
-}
-.arial16noboldwhiteCTR {
-	font-family: Arial;
-	font-size: 16px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	color: #FFF;
-	text-align: center;
-}
-.arial table tr td p {
-	font-family: Arial;
-}
-.arial table tr td p {
-	color: #FFF;
-}
-.arial table tr td p {
-	text-align: left;
-	color: #000;
-	font-family: Arial;
-}
-.arial table tr td .arial16nobold {
-	color: #000;
-	font-family: Arial;
-}
-.arial table tr td .arial16noboldwhite {
-	color: #FFF;
-}
-.Arial blockquote .arial16nobold {
-	font-family: Arial;
-}
-.Arial blockquote .arial16nobold {
-	font-size: 16px;
-}
-.arial table tr td .arial16nobold {
-	color: #000;
-}
-.Arial table tr .Arial .arial16nobold {
-	font-family: Arial;
-}
-.Arial table tr .Arial .arial16nobold {
-	font-size: 16px;
-}
-.Arial table tr .Arial .arial16nobold strong {
-	color: #000;
-}
-.Arial table tr .Arial .arial16nobold {
-	color: #000;
-}
-.gill50white {
-	font-family: Impact;
-	font-size: 40px;
-	font-style: normal;
-	line-height: normal;
-	font-variant: normal;
-	text-transform: none;
-	color: #FFF;
-	text-align: left;
-}
-.Gill50back {
-	font-family: Impact;
-	font-size: 40px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: bold;
-	font-variant: normal;
-	text-transform: none;
-	color: #B30303;
-}
-.Gill50backCTR {
-	font-family: Impact;
-	font-size: 40px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: bold;
-	font-variant: normal;
-	text-transform: none;
-	color: #B30303;
-	text-align: center;
-}
-.vivaldi50white {
-	font-family: "Book Antiqua";
-	font-size: 40px;
-	font-style: normal;
-	line-height: normal;
-	font-variant: normal;
-	text-transform: none;
-	color: #FFF;
-	text-align: right;
-}
-.vivaldi50red {
-	font-family: "Book Antiqua";
-	font-size: 50px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	color: #B30303;
-	text-align: center;
-}
-.gill85red {
-	font-family: Impact;
-	font-size: 65px;
-	font-style: normal;
-	line-height: normal;
-	font-variant: normal;
-	text-transform: none;
-	color: #b30303;
-	font-weight: normal;
-}
-.arial14nobold {
-	font-family: Arial;
-	font-size: 14px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	color: #000;
-}
-.gill50white table tr .gill50white {
-	font-family: Impact;
-	font-size: 50px;
-	font-style: normal;
-	line-height: normal;
-	font-variant: normal;
-	text-transform: none;
-	color: #FFF;
-	font-weight: normal;
-}
-.Arial blockquote .arial16nobold {
-	text-align: left;
-}
-.style24 {
-	color: #FFF;
-}
-.style5 {
-	color: #FFFFFF;
-	font-family: Arial;
+
 }
 
+.Arial .Arial {
+
+	font-family: Arial;
+
+	color: #000;
+
+	text-align: left;
+
+}
+
+.Arial {
+
+	font-size: 14px;
+
+}
+
+.Arial {
+
+	font-size: 18px;
+
+}
+
+.Arial {
+
+	font-weight: bold;
+
+}
+
+.left {
+
+	text-align: left;
+
+	color: #FC6;
+
+}
+
+body div table tr td div table {
+
+	font-size: 14px;
+
+	font-family: Arial;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: normal;
+
+	font-variant: normal;
+
+	color: #000;
+
+	text-align: left;
+
+}
+
+.style32 .Arial strong {
+
+	font-family: "Gill Sans MT Ext Condensed Bold";
+
+}
+
+.style321 .Arial strong {
+
+	font-size: 16px;
+
+}
+
+.Arial {
+
+	font-family: Arial;
+
+}
+
+.Arial strong {
+
+	font-size: 16px;
+
+}
+
+.style31 strong {
+
+	font-size: 16px;
+
+}
+
+.Arial table tr td {
+
+	font-size: 16px;
+
+	color: #000;
+
+	font-family: Arial;
+
+}
+
+.Arial table {
+
+	font-size: 16px;
+
+}
+
+.Arial blockquote {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	color: #000;
+
+	text-align: left;
+
+}
+
+.Arial table tr td p {
+
+	color: #000;
+
+	font-family: "Gill Sans MT Ext Condensed Bold", Arial;
+
+	font-size: 16px;
+
+	text-align: left;
+
+}
+
+#Gill50Red {
+
+	font-family: "Gill Sans MT Ext Condensed Bold";
+
+	font-size: 50px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: bold;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #F00;
+
+}
+
+#Gill50red {
+
+	font-family: "Gill Sans MT Ext Condensed Bold";
+
+	font-size: 50px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: bold;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #F00;
+
+}
+
+.gill50red {
+
+	font-family: Impact;
+
+	font-size: 18px;
+
+	line-height: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #b30303;
+
+	text-align: left;
+
+}
+
+.arial16noboldwhite {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #FFF;
+
+	text-align: left;
+
+}
+
+.arial16noboldwhiteCTR {
+
+	font-family: Arial;
+
+	font-size: 16px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #FFF;
+
+	text-align: center;
+
+}
+
+.arial table tr td p {
+
+	font-family: Arial;
+
+}
+
+.arial table tr td p {
+
+	color: #FFF;
+
+}
+
+.arial table tr td p {
+
+	text-align: left;
+
+	color: #000;
+
+	font-family: Arial;
+
+}
+
+.arial table tr td .arial16nobold {
+
+	color: #000;
+
+	font-family: Arial;
+
+}
+
+.arial table tr td .arial16noboldwhite {
+
+	color: #FFF;
+
+}
+
+.Arial blockquote .arial16nobold {
+
+	font-family: Arial;
+
+}
+
+.Arial blockquote .arial16nobold {
+
+	font-size: 16px;
+
+}
+
+.arial table tr td .arial16nobold {
+
+	color: #000;
+
+}
+
+.Arial table tr .Arial .arial16nobold {
+
+	font-family: Arial;
+
+}
+
+.Arial table tr .Arial .arial16nobold {
+
+	font-size: 16px;
+
+}
+
+.Arial table tr .Arial .arial16nobold strong {
+
+	color: #000;
+
+}
+
+.Arial table tr .Arial .arial16nobold {
+
+	color: #000;
+
+}
+
+.gill50white {
+
+	font-family: Impact;
+
+	font-size: 40px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #FFF;
+
+	text-align: left;
+
+}
+
+.Gill50back {
+
+	font-family: Impact;
+
+	font-size: 40px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: bold;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #B30303;
+
+}
+
+.Gill50backCTR {
+
+	font-family: Impact;
+
+	font-size: 40px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: bold;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #B30303;
+
+	text-align: center;
+
+}
+
+.vivaldi50white {
+
+	font-family: "Book Antiqua";
+
+	font-size: 40px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #FFF;
+
+	text-align: right;
+
+}
+
+.vivaldi50red {
+
+	font-family: "Book Antiqua";
+
+	font-size: 50px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #B30303;
+
+	text-align: center;
+
+}
+
+.gill85red {
+
+	font-family: Impact;
+
+	font-size: 65px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #b30303;
+
+	font-weight: normal;
+
+}
+
+.arial14nobold {
+
+	font-family: Arial;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-weight: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #000;
+
+}
+
+.gill50white table tr .gill50white {
+
+	font-family: Impact;
+
+	font-size: 50px;
+
+	font-style: normal;
+
+	line-height: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	color: #FFF;
+
+	font-weight: normal;
+
+}
+
+.Arial blockquote .arial16nobold {
+
+	text-align: left;
+
+}
+
+.style24 {
+
+	color: #FFF;
+
+}
+
+.style5 {
+
+	color: #FFFFFF;
+
+	font-family: Arial;
+
+}
+
+
+
 /**
+
  * Utilities
+
  */
 
 
+
+
+
 .background--orange {
+
 	background-color: #FFCC66;
+
 }
+
 	
+
 .background--red {
+
 	background-color: #b30303;
+
 	color: white;
+
 }
+
+
 
 	.background--red h2 {
+
 		color: white;
+
 	}
+
 	
+
 	.background--red a {
+
 		color: white;
+
 	}
+
+
 
 .pull--left {
+
 	float: left;
+
 }
+
+
 
 .pull--right {
+
 	float: right;
+
 }
+
+
 
 .margin--left {
+
 	margin-left: 20px;
+
 }
+
+
 
 .margin--right {
+
 	margin-right: 20px;
+
 }
+
+
 
 .margin--top {
+
 	margin-top: 20px;
+
 }
+
+
 
 .margin--bottom {
+
 	margin-bottom: 20px;
+
 }
+
+
 
 .padding--10 {
+
 	padding: 10px;
+
 }
 
+
+
 .padding--20 {
+
 	padding: 20px;
+
 }

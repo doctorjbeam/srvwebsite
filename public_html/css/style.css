@@ -1,306 +1,611 @@
 body {
-	background-image: url(/steamrail/images/Background_Image_Mstr.jpg);
+
+	background-image: url(/images/Background_Image_Mstr.jpg);
+
 	background-color: #E6DA88;
+
 	background-repeat: no-repeat;
+
 	background-position: top;
+
 }
+
 .style4 {
+
 	font-size: 14px;
+
 	font-family: Cambria;
+
 	color: #FFFFFF;
+
 }
+
 .style24 {color: #FF0000}
+
 .style5 {
+
 	color: #FFFFFF;
+
 	font-family: Arial;
+
 	font-size: 14px;
+
 }
+
 .style5 a {
+
 	color: #FFFFFF;
+
 }
+
 .style6 {
+
 	color: #000000;
+
 	font-family: Arial;
+
 }
+
 .style2 {font-size: x-large}
+
 .style46 {	font-family: Cambria;
+
 	font-size: 14px;
+
 }
+
 .Arial {
+
 	font-family: "Century Gothic";
+
 	font-size: 18px;
+
 	font-weight: normal;
+
 }
+
 .Arial p strong {
+
 	font-weight: bold;
+
 }
+
 .Arial p strong {
+
 	font-size: 14px;
+
 }
+
 .Arial p strong {
+
 	font-size: 24px;
+
 }
+
 .Arial p strong {
+
 	font-size: 18px;
+
 }
+
 .Arial p strong {
+
 	font-size: 24px;
+
 }
+
 .Arial p strong {
+
 	font-size: 16px;
+
 }
+
 .Arial p strong {
+
 	font-size: 18px;
+
 }
+
 .arial16noboldleft {
+
 	text-align: left;
+
 }
+
 .arial16noboldleft {
+
 	text-align: right;
+
 }
+
 .arialleft {
+
 	text-align: left;
+
 }
+
 .arial16 {
+
 	font-family: Arial;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #000;
+
 }
+
 .arialMT16 {
+
 	font-family: Arial;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: bold;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #000;
+
 }
+
 .arial14 {
+
 	font-family: Arial;
+
 	font-size: 14px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #000;
+
 	text-align: center;
+
 }
+
 .arial16left {
+
 	text-align: left;
+
 }
+
 index14arial {
+
 	font-family: Arial;
+
 	font-size: 14px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #000;
+
 }
+
 .Arial blockquote p {
+
 	text-align: left;
+
 }
+
 .center {
+
 	text-align: center;
+
 }
+
 .impact50red {
+
 	font-family: Impact;
+
 	font-weight: normal;
+
 	font-size: 40px;
+
 }
+
 .impact50red a {
+
 	color: #B30303;
+
 }
+
 impact40hide {
+
 	font-family: Impact;
+
 	font-size: 40px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #FC6;
+
 }
+
 impact40hide {
+
 	font-family: Impact;
+
 	font-size: 40px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #FC6;
+
 }
+
 .arial16boldred {
+
 	font-family: Arial;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: bold;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #F00;
+
 }
+
 .Arial table tr td .arial16nobold a {
+
 	color: #000;
+
 }
+
 .arial16nobold {
+
 	font-family: Arial;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #000;
+
 	text-align: left;
+
 }
+
 .arial16nobold a {
+
 	color: #000;
+
 }
+
 .arial16noboldCTR {
+
 	font-family: Arial;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #000;
+
 	text-align: center;
+
 }
+
 .arial16noboldCTR a {
+
 	color: #000;
+
 }
+
 .arial16noboldright {
+
 	font-family: Arial;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #000;
+
 	text-align: right;
+
 }
+
 .arial16noboldright a {
+
 	color: #000;
+
 }
+
 .arial16boldwhite {
+
 	font-family: Arial;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: bold;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #FFF;
+
 }
+
 .arial16noboldwebsitewhite {
+
 	font-family: Arial;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #FFF;
+
 }
+
 .arial16bold {
+
 	font-family: Arial;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #000;
+
 	text-align: left;
+
 	font-weight: bold;
+
 }
+
 .arial16bold a {
+
 	color: #000;
+
 }
+
 .arial16noboldwhite a {
+
 	color: #FFF;
+
 }
+
 .arial14bold {
+
 	font-family: Arial;
+
 	font-size: 14px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #000;
+
 	text-align: left;
+
 	font-weight: bold;
+
 }
+
 .arial14nobold a {
+
 	color: #000;
+
 }
+
 .arial12nobold {
+
 	font-family: Arial;
+
 	font-size: 12px;
+
 	color: #000;
+
 }	
+
 .arial12bold {
+
 	font-family: Arial;
+
 	font-size: 12px;
+
 	color: #000;
+
 	font-weight: bold;
+
 }
+
 .arial24boldwhite {
+
 	font-family: Arial;
+
 	font-size: 24px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: bold;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #FFF;
+
 }
+
 .arial16noboldwebsiteblue {
+
 	font-family: Arial;
+
 	font-size: 16px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	text-decoration:underline;
+
 	color: #00F;
+
 }
+
 .arial16noboldwebsiteblue  {
+
 	color: #00F;
+
 }
+
 .arial14noboldwebsiteblue {
+
 	font-family: Arial;
+
 	font-size: 14px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: normal;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	text-decoration:underline;
+
 	color: #00F;
+
 }
+
 .arial14noboldwebsiteblue  {
+
 	color: #00F;
+
 }
+
 .arial24boldwhite {
+
 	font-family: Arial;
+
 	font-size: 24px;
+
 	font-style: normal;
+
 	line-height: normal;
+
 	font-weight: bold;
+
 	font-variant: normal;
+
 	text-transform: none;
+
 	color: #FFF;
+
 }
