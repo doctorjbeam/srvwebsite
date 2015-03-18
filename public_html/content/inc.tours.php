@@ -78,7 +78,7 @@ to Echuca</td>
 
 				<td><a href="http://steamrail.clicktix.com.au" title="Buy Tickets Online - Click Here" target="_blank">Buy Online</a></td>
 
-				<td>-</td>
+				<td><a href="https://www.facebook.com/events/738214582962546" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a></td>
 
 			</tr>
             
