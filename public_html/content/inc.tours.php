@@ -27,42 +27,6 @@
 		</thead>
 
 		<tbody>
-
-			<tr>
-
-				<td>03 Apr</td>
-
-				<td>Good Friday Appeal<br />
-(Suburban Rambler)</td>
-
-				<td>Melbourne - (Morning Train)<br />
-(Departing Flinders St)</td>
-
-				<td><a href="documents/brochures/2015/2015-04-03_Good_Friday_Suburban_Rambler.pdf" target="_blank">Available Now</a></td>
-
-				<td><a href="http://steamrail.clicktix.com.au" title="Buy Tickets Online - Click Here" target="_blank">Buy Online</a></td>
-
-				<td><a href="https://www.facebook.com/events/772376886172051" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a></td>
-
-			</tr>
-            
-            <tr>
-
-				<td>03 Apr</td>
-
-				<td>Good Friday Appeal<br />
-(Suburban Rambler)</td>
-
-				<td>Melbourne - (Afternoon Train)<br />
-(Departing Flinders St) </td>
-
-				<td><a href="documents/brochures/2015/2015-04-03_Good_Friday_Suburban_Rambler.pdf" target="_blank">Available Now</a></td>
-
-				<td><a href="http://steamrail.clicktix.com.au" title="Buy Tickets Online - Click Here" target="_blank">Buy Online</a></td>
-
-				<td><a href="https://www.facebook.com/events/772376886172051" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a></td>
-
-			</tr>
             
             <tr>
 
@@ -132,6 +96,37 @@ to Echuca</td>
 				<td><a href="https://www.facebook.com/events/401877179990434" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a><a href="http://steamrail.clicktix.com.au" title="Buy Tickets Online - Click Here" target="_blank"></a></td>
 
 			</tr>
+            
+             <tr>
+               <td>31 Jul -<br />
+                 02 Aug</td>
+               <td>Maldon Goldfields<br />
+                 (Weekender)</td>
+               <td>Maldon</td>
+               <td>Soon</td>
+               <td>&nbsp;</td>
+               <td>&nbsp;</td>
+             </tr>
+
+ <tr>
+
+				<td>16 Aug</td>
+
+				<td>Snow Train<br />
+(Day Excursion)</td>
+
+				<td>Mt Baw Baw (Snow)<br />
+				  Walhalla or 
+Traralgon</td>
+
+				<td>Soon</td>
+
+				<td>&nbsp;</td>
+
+				<td>&nbsp;</td>
+
+		  </tr>
+
 
 	  </tbody>
 
@@ -191,16 +186,6 @@ to Echuca</td>
           
 			<tr>
 
-				<td>Jun - Jul</td>
-
-				<td>Beyer-Garratt 6029</td>
-
-				<td>TBA</td>
-
-			</tr>
-          
-			<tr>
-
 				<td>05 Jul</td>
 
 				<td>Tocumwal Winter Festival</td>
@@ -217,26 +202,6 @@ to Echuca</td>
 				  (Charter)</td>
 
 				<td>Echuca</td>
-
-			</tr>
-            
-            <tr>
-
-				<td>01 &amp; 02 Aug</td>
-
-				<td>Maldon Through Train</td>
-
-				<td>Maldon</td>
-
-			</tr>
-            
-            <tr>
-
-				<td>16 Aug</td>
-
-				<td>Snow Train</td>
-
-				<td>Traralgon</td>
 
 			</tr>
             
@@ -366,6 +331,24 @@ to Echuca</td>
                 <td><a href="https://www.facebook.com/events/1381133118864925" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a></td>
 
 			</tr>
+			<tr>
+			  <td>03 Apr</td>
+			  <td>Good Friday Appeal<br />
+			    (Suburban Rambler)</td>
+			  <td>Melbourne - (Morning Train)<br />
+			    (Departing Flinders St)</td>
+			  <td><a href="documents/brochures/2015/2015-04-03_Good_Friday_Suburban_Rambler.pdf" target="_blank">Available Now</a></td>
+			  <td><a href="https://www.facebook.com/events/772376886172051" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a></td>
+		  </tr>
+			<tr>
+			  <td>03 Apr</td>
+			  <td>Good Friday Appeal<br />
+			    (Suburban Rambler)</td>
+			  <td>Melbourne - (Afternoon Train)<br />
+			    (Departing Flinders St) </td>
+			  <td><a href="documents/brochures/2015/2015-04-03_Good_Friday_Suburban_Rambler.pdf" target="_blank">Available Now</a></td>
+			  <td><a href="https://www.facebook.com/events/772376886172051" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a></td>
+		  </tr>
             
 		</tbody>
 
