@@ -103,9 +103,9 @@ to Echuca</td>
                <td>Maldon Goldfields<br />
                  (Weekender)</td>
                <td>Maldon</td>
+               <td><a href="documents/brochures/2015/2015-07-31_08-02_Maldon_Goldfields_Weekender.pdf" title="Download Brochure - Click Here" target="_blank">Available Now</a></td>
                <td>Soon</td>
-               <td>&nbsp;</td>
-               <td>&nbsp;</td>
+               <td>Soon</td>
              </tr>
 
  <tr>
@@ -119,11 +119,11 @@ to Echuca</td>
 				  Walhalla or 
 Traralgon</td>
 
+				<td><a href="documents/brochures/2015/2015-08-16_Snow_Train.pdf" title="Download Brochure - Click Here" target="_blank">Available Now</a></td>
+
 				<td>Soon</td>
 
-				<td>&nbsp;</td>
-
-				<td>&nbsp;</td>
+				<td>Soon</td>
 
 		  </tr>
 
