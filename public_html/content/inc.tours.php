@@ -47,6 +47,16 @@ to Echuca</td>
 			</tr>
             
             <tr>
+              <td>08 May</td>
+              <td>Ballarat Transfer Train <br />
+                (Day Excursion /<br />
+                Transfer Train)</td>
+              <td>Newport to Ballarat</td>
+              <td><a href="documents/brochures/2015/2015-05-09-10_Ballarat_Heritage_Weekend.pdf" title="Download Brochure - Click Here" target="_blank">Available Now</a></td>
+              <td><a href="http://steamrail.clicktix.com.au" title="Buy Tickets Online - Click Here" target="_blank">Buy Online</a></td>
+              <td><a href="https://www.facebook.com/events/1611705909053092" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a></td>
+            </tr>
+            <tr>
 
 				<td>09 &amp; 10 May</td>
 
@@ -98,14 +108,23 @@ to Echuca</td>
 			</tr>
             
              <tr>
+               <td>20 Jun</td>
+               <td>Echuca Explorer<br />
+               (Day Excursion)</td>
+               <td>Echuca (via Seymour)</td>
+               <td><a href="../documents/brochures/2015/2015-06-20_Echuca_Explorer.pdf" title="Download Brochure - Click Here" target="_blank">Available Now</a></td>
+               <td><a href="http://steamrail.clicktix.com.au" title="Buy Tickets Online - Click Here" target="_blank">Buy Online</a></td>
+               <td><a href="https://www.facebook.com/events/1559838404278188" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a></td>
+             </tr>
+             <tr>
                <td>31 Jul -<br />
                  02 Aug</td>
                <td>Maldon Goldfields<br />
                  (Weekender)</td>
                <td>Maldon</td>
                <td><a href="documents/brochures/2015/2015-07-31_08-02_Maldon_Goldfields_Weekender.pdf" title="Download Brochure - Click Here" target="_blank">Available Now</a></td>
-               <td>Soon</td>
-               <td>Soon</td>
+               <td><a href="http://steamrail.clicktix.com.au" title="Buy Tickets Online - Click Here" target="_blank">Buy Online</a></td>
+               <td><a href="https://www.facebook.com/events/921210567943670" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a></td>
              </tr>
 
  <tr>
@@ -121,9 +140,9 @@ Traralgon</td>
 
 				<td><a href="documents/brochures/2015/2015-08-16_Snow_Train.pdf" title="Download Brochure - Click Here" target="_blank">Available Now</a></td>
 
-				<td>Soon</td>
+				<td><a href="http://steamrail.clicktix.com.au" title="Buy Tickets Online - Click Here" target="_blank">Buy Online</a></td>
 
-				<td>Soon</td>
+				<td><a href="https://www.facebook.com/events/704990909610965" title="RSVP here - Join our Facebook page!" target="_blank">Event Link</a></td>
 
 		  </tr>
 
@@ -153,46 +172,6 @@ Traralgon</td>
 		</thead>
 
 		<tbody>
-
-			<tr>
-
-				<td>08 May</td>
-
-				<td>Ballarat Transfer</td>
-
-				<td>Newport - Ballarat</td>
-
-			</tr>
-
-			<tr>
-
-				<td>11 May</td>
-
-				<td>Ballarat Transfer</td>
-
-				<td>Ballarat - Newport</td>
-
-			</tr>
-            
-			<tr>
-
-				<td>20 Jun</td>
-
-				<td>Winery Tour and Wharf</td>
-
-				<td>Echuca</td>
-
-			</tr>
-          
-			<tr>
-
-				<td>05 Jul</td>
-
-				<td>Tocumwal Winter Festival</td>
-
-				<td>Tocumwal</td>
-
-			</tr>
             
             <tr>
 
@@ -223,16 +202,6 @@ Traralgon</td>
 				<td>Goulburn Valley Winery Train</td>
 
 				<td>Shepparton</td>
-
-			</tr>
-            
-            <tr>
-
-				<td>19 &amp; 20 Sep</td>
-
-				<td>Maldon Weekend Extravaganza</td>
-
-				<td>Maldon - Castlemaine</td>
 
 			</tr>
             
